@@ -49,7 +49,7 @@ def dijkstra(aGraph,start):
 #include <iostream>
 using namespace std;
 
-std::vector<Node> dijkstra(const std::vector<std::vector<Node>>&amp; graph, int start) {
+vector<Node> dijkstra(const vector<vector<Node>>&amp; graph, int start) {
     vector<Node> distances;
     for (int i = 0; i &lt; graph.size(); i++) {
         distances.push_back(Node(INF, -1));
